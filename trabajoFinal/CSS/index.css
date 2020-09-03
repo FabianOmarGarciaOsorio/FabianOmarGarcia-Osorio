@@ -1,0 +1,84 @@
+body{
+      font-family: castellar;
+      color: rgb(0, 0, 0);
+}
+header, main,section,footer, .manu{
+      width: 90%;
+      margin:80px auto;
+      max-width: 700px;
+}
+
+th {
+      color: rgb(0, 0, 0);
+      border:1px solid #000000 ;
+   }
+
+td {
+      border:1px solid #000000 ;
+   }
+
+
+p {
+      margin:20px 30px;
+      width: 98%;
+      background:rgb(255, 255, 255);
+  }
+footer {
+     background: rgb(176, 180, 180);
+     text-align: center;
+     
+     
+
+     
+}
+
+
+
+div{
+
+      display: inline-block;
+  }
+
+  
+
+  .manu{
+        background: #a6acab;
+        width: 280px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        
+        
+  }
+   .manu li {
+                border-bottom: 1px solid rgba(255,255,255, .3);
+                display:inline-block;
+                
+             }
+
+
+             .manu li a{
+                   display: block;
+                   padding: 15px;
+                   color: rgb(0, 0, 0);
+                   text-decoration: none;
+             }
+
+      body{
+            background: url(../fondofin.jpg);
+      }
+      
+      .manu li a:hover{
+            background: #1c5ace;
+             }
+
+                  div{
+
+                        display: inline-block;
+                    }
+                  
+      
+      
+
+
+       

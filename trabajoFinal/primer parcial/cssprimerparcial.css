@@ -1,0 +1,35 @@
+body{
+    font-family: castellar;
+}
+main,section {
+    width: 90%;
+    margin:20px auto;
+    max-width: 1000px;
+}
+header{
+    width: 150%;
+    margin: 40px auto;
+    max-width: 1000px;
+
+}
+
+section{
+    background: rgb(255, 255, 255);
+}
+nav{
+    background: url(../textura.jfif);
+    width: 100;
+    max-width: auto;
+    color: rgb(0, 0, 0);
+}
+footer {
+    width: auto;
+    color: white;
+    text-align: center;
+    background: url(../holas.jfif);
+
+}
+body{
+    background: url(../fondofin.jpg);
+}
+
