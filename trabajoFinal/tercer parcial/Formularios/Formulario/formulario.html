@@ -1,0 +1,24 @@
+<Doctype html>
+<head>
+<tittle>formulario con botones 
+</tittle>
+</head>
+<body>
+    <fieldset>
+        <form>
+            radio <input type="text" id="Radio"/><br><br>
+           <input type="button" id="boton" value="calcular"/><br><br>
+           
+        </form>
+        <fieldset>
+        <script>  
+            document.getElementById("boton").onclick=calculo;
+            function calculo()
+            {
+            var radio = document.getElementById("Radio").value
+            var Area = radio*radio*3.14;
+            document.write("El área de su circulo es: "+Area + "metros");
+            }
+        </script>
+        <body>
+        </html>
